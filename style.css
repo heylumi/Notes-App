@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    padding: 23px;
+    background-color: #292929;
+}
+
+.header-title{
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(31, 31, 31);
+    text-align: center;
+    color: rgb(7, 7, 7);
+}
+
+.header-title :nth-child(1){
+    font-size: 30px;
+}
+
+
+.header-title :nth-child(2){
+    color:#ffffff;
+    margin-top: 10px;
+}
+
+
+#input-box{
+    border: 1px solid rgb(255, 183, 76);
+    padding: 23px;
+    border-radius: 10px;
+}
+#addTitle{
+    font-weight: bolder;
+   }
+input, textarea{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-top: 6px;
+    color: white;
+}
+
+button{
+    background: transparent;
+    color: rgb(255, 183, 76);
+    padding: 8px 12px;
+    border: 1px solid rgb(255, 183, 76);
+    border-radius: 5px;
+}
+
+#notes{
+    padding: 23px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.note{
+    width: 300px;
+    color: #e0e0e0;
+    overflow-wrap: break-word;
+    margin: 12px;
+    padding: 12px;
+    border: 1px solid rgb(255, 183, 76);
+    background: transparent;
+    border-radius: 10px;
+}
+
+.deleteNote{
+    float: right;
+}
